@@ -1,0 +1,15 @@
+<h1>本の編集</h1>
+
+<%= form_with model: @book do |form| %>
+  <div>
+    <%= form.label :title, "タイトル" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :author, "著者" %>
+    <%= form.text_field :author %>
+  </div>
+  <%= link_to "戻る", books_path %>
+  <%= form.submit "保存" %>
+<% end %>
