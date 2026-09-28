@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.2.3", ">= 7.2.3.2"
+gem "rails", "~> 8.1.4"
 # Pin below 3.0: activesupport still calls JSON.parse(quirks_mode: true), removed in json 3.x
 gem "json", "~> 2.9"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
